@@ -8,17 +8,34 @@
     <meta name="keywords" content="Jiwon Lee, 소개, 홈페이지">
     <meta name="author" content="Jiwon Lee">
     <title>Jiwon Lee's Page</title>
-    <link href="myhomepage.css" rel="stylesheet">
+    <style>
+        body{background-color:rgb(255, 186, 96);}
+        @media (min-width:900px) {
+            .image{width:900px;}
+        }
+        @media (max-width:900px) {
+            .image{width:100vw}
+        }
+
+        #image_wrap{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .firstbr{margin-bottom:15vh}
+        .scdbr{margin-bottom:5vh}
+    </style>
 </head>
 <body>
-    <h1>안녕하세요</h1>
-<!--    <div id=image_wrap>
+        <div id=image_wrap>
         <img class="image" src="10.jpg" alt="Jiwon Lee 소개">
         <div class="firstbr"></div>
         <img class="image" src="20.jpg" alt="Jiwon Lee 소개">
         <div class="scdbr"></div>
         <img class="image" src="30.jpg" alt="Jiwon Lee 소개">
         <img class="image" src="40.jpg" alt="Jiwon Lee 소개">
-    </div>-->
+    </div>
 </body>
 </html>
